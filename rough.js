@@ -37,8 +37,7 @@ search.addEventListener('keydown',function(e){
   
         async function currwether(){
         let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?&units=metric&lat=${lat}&lon=${lon}&appid=${API}`)
-        let data = await response.json() 
-        console.log();
+        let data = await response.json(); 
         city.innerHTML += data.name +" , " +data.sys.country;
         temp.innerHTML = data.main.temp.toFixed(0);
         humid.innerHTML = data.main.humidity + " %";
