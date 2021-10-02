@@ -1,96 +1,98 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    transition: 0.3s !important;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  transition: 0.3s !important;
 }
-body{
-    color: rgb(248, 232, 232);
-    min-height: 100vh;
-    background-image: linear-gradient(to bottom, rgb(96, 212, 228),rgba(72, 76, 136, 0.904));
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center ;
-    padding-top: 50px;
-} 
+body {
+  color: rgb(248, 232, 232);
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(13, 241, 173, 0.74),
+    rgba(72, 76, 136, 0.904)
+  );
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
 body * {
-    padding: 8px 0 ;
-    margin: 8px 0;
-    transition: 0.3s;
+  padding: 8px 0;
+  margin: 8px 0;
+  transition: 0.3s;
 }
-.view{
-    text-align: center;
-    background-color: #4d42584b;
-    border-radius: 10px;
-    padding: 40px 60px;
-    min-width: 300px;
-    background-image: url('http://media.idownloadblog.com/wp-content/uploads/2017/04/WeatherLock-Lock-screen-730x480.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.view {
+  text-align: center;
+  background-color: #273541;
+  border-radius: 10px;
+  padding: 40px 60px;
+  min-width: 300px;
+  /* background-image: url("http://media.idownloadblog.com/wp-content/uploads/2017/04/WeatherLock-Lock-screen-730x480.jpg"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-#search{
-    padding: 15px 20px ;
-    width: 300px;
-    border: none;
-    font-size: 16px;
-    border-radius: 30px;
-    margin-bottom: 20px;
-    color: rgb(81, 81, 104);
-    background-color: rgb(233, 229, 217);
+#search {
+  padding: 15px 20px;
+  width: 300px;
+  border: none;
+  font-size: 16px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: rgb(81, 81, 104);
+  background-color: rgb(236, 241, 241);
 }
-#search:focus{
-    background-color: #fff;
-    color: #454545;
-    border: none;
+#search:focus {
+  background-color: #fff;
+  color: #454545;
+  border: none;
 }
-.location{
-    font-family: calibri;
-    font-size: 13px;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin-top: -20px;
+.location {
+  font-family: calibri;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: -20px;
 }
 .temp {
-    font-size: 50px;
-    font-weight: 900;
-   
+  font-size: 50px;
+  font-weight: 900;
 }
-.temp .deg{
-    position: relative ;
-    top: -22px;
-    left: -12px;
-    font-size: 18px;
-    font-weight: 200;
-    
+.temp .deg {
+  position: relative;
+  top: -22px;
+  left: -12px;
+  font-size: 18px;
+  font-weight: 200;
 }
 
-.weather-desc{
-    margin: 0 !important;
+.weather-desc {
+  margin: 0 !important;
 }
-#icon{
-    margin: 0px;
+#icon {
+  margin: 0px;
 }
-.humidity{
-    position: relative;
-    margin: 0;
-    font-weight: 300;
-   font-size: 18px;
+.humidity {
+  position: relative;
+  margin: 0;
+  font-weight: 300;
+  font-size: 18px;
 }
-.humid-icon{
-    position: absolute;
-    top: -8px;
-    width: 40px;
-    height: 30px;
-    background-image: url('http://cdn.onlinewebfonts.com/svg/img_285841.svg') ;
-    background-repeat:no-repeat ;
+.humid-icon {
+  position: absolute;
+  top: -8px;
+  width: 40px;
+  height: 30px;
+  background-image: url("http://cdn.onlinewebfonts.com/svg/img_285841.svg");
+  background-repeat: no-repeat;
 }
-#error{
-    margin: 0;
-    padding: 0;
-    font-family: monospace;
-    font-size: 15px;
-    font-weight: bold;
-    color: rgb(173, 33, 33);
+#error {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(173, 33, 33);
 }
